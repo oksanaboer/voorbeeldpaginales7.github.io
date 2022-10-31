@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tandaartsafspraak</title>
+  </head>
+  <body>
+    <p>Tandartsen is een fullservice praktijk waar u naast algemene tandheelkunde ook terecht kunt voor implantologie, endodontologie, esthetische tandheelkunde,
+       prothesewerk, slijtage behandelingen, mondhygiëne behandelingen.
+       In onze moderne tandartspraktijk in Dieren staat een team van professionals voor u klaar om u de zorg te bieden die u verdient.
+       We hanteren ruime openingstijden, zodat u ook voor en na uw werk geholpen kan worden.
+    </p>
+    <figure>
+    <img src="https://www.tandheelkundigcentrumwassenaar.nl/wp-content/uploads/2019/02/46515591_aangepast.jpg"
+     alt="tanden" title="Tandartspraktijk" width="300" height="240">
+    <img src="http://tandartseekelaar.nl/wp-content/uploads/2022/04/We-zijn.jpg"
+     alt="tanden" title="Tandartspraktijk" width="300" height="240">
+    <img src="https://www.mera-chairs.nl/applications/weemen/mera/cache/image/ratio/1800/800/-Afbeeldingen-header-03_wit.jpg"
+     alt="tanden" title="Tandartspraktijk" width="300" height="240">
+    </figure>
+    <h1>Tandartspraktijk KiesKeurig</h1>
+    <form id="contactform" action="https://formspree.io/f/mgeqzrkb" method="post">
+      <fieldset>
+        <legend> Personlijke gegevens </legend>
+        <label for="naam">Naam:</label>
+        <input id="naam" type="text" name="naam"><br><br>
+        <input type="radio" name="geslacht" value="man" checked>Man
+        <input type="radio" name="geslacht" value="vrouw">Vrouw
+        <input type="radio" name="geslacht" value="anders">Anders <br><br>
+         Geboortedatum
+        <input type="date" name="datum" max="2004-12-31"><br><br>
+        <label for="adres">Adres:</label>
+        <input type="text" id="adres" name="adres"><br><br>
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode"><br><br>
+        <label for=" woonplaats">Woonplaats:</label>
+        <input type="text" id="woonplaats" name="woonplaats"><br><br>
+        <label for="E-mailadres">E-mailadres:</label>
+        <input type="text" id="e-mailadres" name="e-mailadres"><br><br>
+        <label for="Telefoonnummer">Telefoonnummer:</label>
+        <input type="text" id="telefoonnummer" name="telefoonnummer"><br><br>
+      </fieldset>
+      <fieldset>
+        <legend> Beschrijving van de klachten </legend>
+      <b> Selecteer uw probleem </b><br>
+        <select name="klacht">
+        <option value="geen">Geen</option>
+        <option value="Kiespijn" selected>
+          Kiespijn</option>
+        <option value="Cariës"selected>
+          Cariës</option>
+        <option value="Mondhygiëne"selected>
+          Mondhygiëne</option>
+        </select><br><br>
+      <b><label for="tanden foto"> Selecteer een tanden foto </label> </b>
+         <input type="file" id="tanden foto" name="tanden foto"><br><br>
+       </fieldset>
+       <fieldset>
+        <legend> Toelichting van de klachen </legend>
+      <b>Scrijf uw probleem</b><br>
+       <textarea name="message" placeholder="Uw bericht" maxlength="1500">
+       </textarea><br>
+      <b> Selecteer uw gewenste afspraak datum</b><br>
+        <input type="date" name="datum" max="2023-12-31"><br><br>
+      </fieldset><br>
+        <input type="submit" value="Verzend">
+      </form>
+  </body>
+</html>
